@@ -1,0 +1,7 @@
+{
+  "name": "AgroWorld",
+  "description": "Integrated Agri-Commerce and Farm Services Platform connecting Farmers, Agri-Stores, Labour, Contracts, Traders, Customers, Biomass Buyers, and Delivery Partners with AI Crop Disease Detection and Real-time Market Access.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

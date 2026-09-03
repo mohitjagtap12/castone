@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ag-green-primary: #2E7D32;
+    --ag-green-light: #E8F5E9;
+    --ag-green-mid: #A5D6A7;
+    --ag-text-dark: #1B5E20;
+    --ag-bg: #F9FCF9;
+  }
+
+  body {
+    background-color: var(--ag-bg);
+    color: var(--ag-text-dark);
+    font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Natural Tones custom utility accents */
+.bg-natural-bg {
+  background-color: var(--ag-bg);
+}
+
+.bg-natural-light {
+  background-color: var(--ag-green-light);
+}
+
+.text-natural-dark {
+  color: var(--ag-text-dark);
+}
+
+.border-natural-mid {
+  border-color: var(--ag-green-mid);
+}
+
+.bg-natural-primary {
+  background-color: var(--ag-green-primary);
+}
